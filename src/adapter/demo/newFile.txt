@@ -1,0 +1,6 @@
+#Written by FileProperties
+#Sun Sep 20 23:35:54 CST 2020
+date=2020-9-20
+name=xulitao
+appId=com.huawei.cbcc
+desc=This is developed by Alexon
