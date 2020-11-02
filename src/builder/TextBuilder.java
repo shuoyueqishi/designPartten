@@ -21,6 +21,7 @@ public class TextBuilder extends Builder {
             buffer.append("  ."+items[i]+"\n");
         }
         buffer.append("\n");
+
     }
 
     @Override
