@@ -2,13 +2,14 @@ package chainOfResponsibility;
 
 public class SpecialSupport extends Support {
     private int number;
-    public SpecialSupport(String name,int number) {
+
+    public SpecialSupport(String name, int number) {
         super(name);
-        this.number=number;
+        this.number = number;
     }
 
     @Override
     public boolean resolve(Trouble trouble) {
-        return trouble.getNumber()==number;
+        return trouble.getNumber() == number;
     }
 }

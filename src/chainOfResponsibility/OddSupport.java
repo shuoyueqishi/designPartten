@@ -7,6 +7,6 @@ public class OddSupport extends Support {
 
     @Override
     public boolean resolve(Trouble trouble) {
-        return trouble.getNumber()%2==1;
+        return trouble.getNumber() % 2 == 1;
     }
 }
