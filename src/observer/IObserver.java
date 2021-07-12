@@ -1,5 +1,5 @@
 package observer;
 
 public interface IObserver {
-    public abstract void update(NumberGenerator generator);
+    void update(NumberGenerator generator);
 }

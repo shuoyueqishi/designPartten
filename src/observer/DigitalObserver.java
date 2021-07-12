@@ -1,6 +1,5 @@
 package observer;
 
-import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
 
 public class DigitalObserver implements IObserver {
     @Override
