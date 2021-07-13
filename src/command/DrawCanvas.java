@@ -4,7 +4,7 @@ import java.awt.*;
 
 public class DrawCanvas extends Canvas implements Drawable {
     private Color color;
-    private int radius = 6;
+    private int radius = 3;
     private MacroCommand history;
 
     public DrawCanvas(int width, int height, MacroCommand history) {

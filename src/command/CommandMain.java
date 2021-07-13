@@ -1,12 +1,13 @@
 package command;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.*;
 
 public class CommandMain extends JFrame implements ActionListener, MouseMotionListener, WindowListener {
     private MacroCommand history = new MacroCommand();
     private DrawCanvas canvas = new DrawCanvas(2500,2000,history);
-    private JButton clearBtn = new JButton("cleatBtn");
+    private JButton clearBtn = new JButton("清除画布");
     public CommandMain(String title) {
         super(title);
         this.addWindowListener(this);
